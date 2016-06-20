@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { StyleSheet, css } from '../index';
+import { StyleSheet, css } from '../aphrodite-composes';
 import styles from './styles';
 
 class Example extends React.Component {

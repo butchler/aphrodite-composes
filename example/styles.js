@@ -1,4 +1,4 @@
-import { StyleSheet, css } from '../index';
+import { StyleSheet, css } from '../aphrodite-composes';
 
 const mediumPaddingSize = '30px';
 const smallPaddingSize = '5px';
