@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bundle": "webpack -p --define 'process.env.NODE_ENV'='\"production\"' --colors --progress --config ./webpack.config.js",
-    "dev-server": "webpack-dev-server -d --inline --colors --config ./webpack.config.js"
+    "watch": "webpack -w -d --inline --colors --config ./webpack.config.js",
+    "dev-server": "webpack-dev-server --content-base ./example/ -d --inline --colors --config ./webpack.config.js",
+    "hot-server": "webpack-dev-server --content-base ./example/ -d --hot --inline --colors --config ./webpack.config.js"
   },
   "author": "Adam Buechler",
   "license": "ISC",
